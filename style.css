@@ -290,17 +290,15 @@ footer p {
 /* Mobile */
 @media (max-width: 768px) {
   #hero {
-    padding: 0 28px;
+    padding: 0;
   }
 
   #hero h1 {
-    font-size: 1.8rem;
-    margin-bottom: 16px;
+    max-width: 100%;
   }
 
   #hero p {
-    font-size: 1rem;
-    margin-bottom: 28px;
+    max-width: 100%;
   }
 
   #hero a {
@@ -309,6 +307,11 @@ footer p {
     padding: 18px 20px;
     box-sizing: border-box;
     align-self: stretch;
+  }
+
+  .hero-texto {
+    width: 100%;
+    padding: 0;
   }
 
   .hero-conteudo {
