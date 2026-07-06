@@ -294,8 +294,21 @@ footer p {
   }
 
   #hero h1 {
-    font-size: 2rem;
-  }
+    font-size: 1.8rem;
+    margin-bottom: 16px;
+}
+
+#hero p {
+  font-size: 1rem;
+  margin-bottom: 28px;
+}
+
+#hero a {
+  width: 100%;
+  text-align: center;
+  padding: 18px 20px;
+  box-sizing: border-box;
+}
 
   .cards {
     grid-template-columns: 1fr;
