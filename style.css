@@ -296,19 +296,29 @@ footer p {
   #hero h1 {
     font-size: 1.8rem;
     margin-bottom: 16px;
-}
+  }
 
-#hero p {
-  font-size: 1rem;
-  margin-bottom: 28px;
-}
+  #hero p {
+    font-size: 1rem;
+    margin-bottom: 28px;
+  }
 
-#hero a {
-  width: 100%;
-  text-align: center;
-  padding: 18px 20px;
-  box-sizing: border-box;
-}
+  #hero a {
+    width: 100%;
+    text-align: center;
+    padding: 18px 20px;
+    box-sizing: border-box;
+    align-self: stretch;
+  }
+
+  .hero-conteudo {
+    grid-template-columns: 1fr;
+    padding: 60px 28px;
+  }
+
+  .hero-foto {
+    display: none;
+  }
 
   .cards {
     grid-template-columns: 1fr;
@@ -345,10 +355,9 @@ footer p {
   .sobre-texto h2,
   .sobre-texto h3 {
     text-align: center !important;
-    text-align: center;
   }
 
- .passo {
+  .passo {
     flex-direction: column;
     gap: 8px;
   }
@@ -360,28 +369,7 @@ footer p {
   .depoimentos-lista {
     grid-template-columns: 1fr !important;
   }
-
-  .hero-conteudo {
-    grid-template-columns: 1fr;
-    padding: 60px 28px;
-  }
-
-  .hero-foto {
-    display: none;
-  }
-
-  #hero a {
-  align-self: flex-start;
-  width: auto;
-  }
-
-  #hero a {
-  align-self: flex-start;
-  width: auto;
-  }
-
 }
-
 
 
 .sobre-inner {
